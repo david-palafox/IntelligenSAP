@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "microsoft-authentication-library-for-objc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AzureAD/microsoft-authentication-library-for-objc",
+      "state" : {
+        "branch" : "master",
+        "revision" : "31a806298d6aa71b40504e7ebda6d6a8923f0ebf"
+      }
+    },
+    {
+      "identity" : "swiftxlsx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/3973770/SwiftXLSX",
+      "state" : {
+        "revision" : "f2604c774dd55afd8c2b6f50e40cf204ea32fe11",
+        "version" : "0.1.4"
+      }
+    },
+    {
+      "identity" : "ziparchive",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ZipArchive/ZipArchive.git",
+      "state" : {
+        "revision" : "b145c6f3619619fb48715c479643e2f2e0e42d2d",
+        "version" : "2.5.2"
+      }
+    }
+  ],
+  "version" : 2
+}

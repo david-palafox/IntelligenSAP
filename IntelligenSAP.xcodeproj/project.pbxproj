@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3625A04829017B2800CA1D85 /* ActivityDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625A04729017B2800CA1D85 /* ActivityDetail.swift */; };
+		364A6439291D6AAB006582A0 /* IntelligenSAP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 364A6437291D6AAB006582A0 /* IntelligenSAP.xcdatamodeld */; };
+		365ADBF4293637A200239D5A /* TimeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365ADBF3293637A200239D5A /* TimeSheetView.swift */; };
+		3689BE0A28F38F07006738C6 /* GeneradorDeReporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689BE0928F38F07006738C6 /* GeneradorDeReporte.swift */; };
+		3689BE1228F39873006738C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689BE1028F39873006738C6 /* Constants.swift */; };
+		3689BE1328F39873006738C6 /* Email.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3689BE1128F39873006738C6 /* Email.txt */; };
+		3689BE1628F3999E006738C6 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689BE1428F3999E006738C6 /* MailView.swift */; };
+		369621D9291AE0D000121065 /* GeneradorDeReporte2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369621D8291AE0D000121065 /* GeneradorDeReporte2.swift */; };
+		3699379A290B90FB00A252AB /* DayDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36993799290B90FB00A252AB /* DayDetail.swift */; };
+		36A8C38F293171BC0099E05F /* TimeSheet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C387293171BC0099E05F /* TimeSheet+CoreDataClass.swift */; };
+		36A8C390293171BC0099E05F /* TimeSheet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C388293171BC0099E05F /* TimeSheet+CoreDataProperties.swift */; };
+		36A8C391293171BC0099E05F /* Day+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C389293171BC0099E05F /* Day+CoreDataClass.swift */; };
+		36A8C392293171BC0099E05F /* Day+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C38A293171BC0099E05F /* Day+CoreDataProperties.swift */; };
+		36A8C393293171BC0099E05F /* Month+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C38B293171BC0099E05F /* Month+CoreDataClass.swift */; };
+		36A8C394293171BC0099E05F /* Month+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C38C293171BC0099E05F /* Month+CoreDataProperties.swift */; };
+		36A8C395293171BC0099E05F /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C38D293171BC0099E05F /* Activity+CoreDataClass.swift */; };
+		36A8C396293171BC0099E05F /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C38E293171BC0099E05F /* Activity+CoreDataProperties.swift */; };
+		36A8C3982931736C0099E05F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C3972931736C0099E05F /* DataController.swift */; };
+		36A8C3A12931BEDF0099E05F /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C3A02931BEDF0099E05F /* PerfilView.swift */; };
+		36A8C3A92932EA3C0099E05F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C3A82932EA3C0099E05F /* Extensions.swift */; };
+		36A8C3AF2934D6B70099E05F /* DayDetailActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C3AE2934D6B70099E05F /* DayDetailActivity.swift */; };
+		36A8C3B12934EAC40099E05F /* TimeSheetGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8C3B02934EAC40099E05F /* TimeSheetGenerator.swift */; };
+		36C04C3428F635C100B8E66C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C04C3328F635C100B8E66C /* HomeView.swift */; };
+		36C4AC8D2906D28E00DE8F37 /* MSAL in Frameworks */ = {isa = PBXBuildFile; productRef = 36C4AC8C2906D28E00DE8F37 /* MSAL */; };
+		36D4588528F5D7E800B04CE3 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4588428F5D7E800B04CE3 /* InicioView.swift */; };
+		36DA5EC728F6FE9D0080B010 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA5EC028F6FE9D0080B010 /* CalendarHelper.swift */; };
+		36DA5EC928F6FE9D0080B010 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA5EC228F6FE9D0080B010 /* CalendarCell.swift */; };
+		36DA5ECC28F6FF8F0080B010 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA5ECB28F6FF8F0080B010 /* CalendarView.swift */; };
 		36F7DD2D28F3876300103389 /* IntelligenSAPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7DD2C28F3876300103389 /* IntelligenSAPApp.swift */; };
 		36F7DD2F28F3876300103389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7DD2E28F3876300103389 /* ContentView.swift */; };
 		36F7DD3128F3876300103389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F7DD3028F3876300103389 /* Assets.xcassets */; };
@@ -14,6 +42,7 @@
 		36F7DD3F28F3876300103389 /* IntelligenSAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7DD3E28F3876300103389 /* IntelligenSAPTests.swift */; };
 		36F7DD4928F3876300103389 /* IntelligenSAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7DD4828F3876300103389 /* IntelligenSAPUITests.swift */; };
 		36F7DD4B28F3876300103389 /* IntelligenSAPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7DD4A28F3876300103389 /* IntelligenSAPUITestsLaunchTests.swift */; };
+		36F7DD5928F3885E00103389 /* SwiftXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 36F7DD5828F3885E00103389 /* SwiftXLSX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3625A04729017B2800CA1D85 /* ActivityDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetail.swift; sourceTree = "<group>"; };
+		364A6438291D6AAB006582A0 /* IntelligenSAP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntelligenSAP.xcdatamodel; sourceTree = "<group>"; };
+		365ADBF3293637A200239D5A /* TimeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetView.swift; sourceTree = "<group>"; };
+		3689BE0928F38F07006738C6 /* GeneradorDeReporte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneradorDeReporte.swift; sourceTree = "<group>"; };
+		3689BE1028F39873006738C6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3689BE1128F39873006738C6 /* Email.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Email.txt; sourceTree = "<group>"; };
+		3689BE1428F3999E006738C6 /* MailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		368E54302906D43300E77C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		369621D8291AE0D000121065 /* GeneradorDeReporte2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneradorDeReporte2.swift; sourceTree = "<group>"; };
+		36993799290B90FB00A252AB /* DayDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetail.swift; sourceTree = "<group>"; };
+		36A8C387293171BC0099E05F /* TimeSheet+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeSheet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36A8C388293171BC0099E05F /* TimeSheet+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeSheet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36A8C389293171BC0099E05F /* Day+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36A8C38A293171BC0099E05F /* Day+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36A8C38B293171BC0099E05F /* Month+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36A8C38C293171BC0099E05F /* Month+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36A8C38D293171BC0099E05F /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36A8C38E293171BC0099E05F /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		36A8C3972931736C0099E05F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		36A8C3A02931BEDF0099E05F /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		36A8C3A82932EA3C0099E05F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		36A8C3AE2934D6B70099E05F /* DayDetailActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailActivity.swift; sourceTree = "<group>"; };
+		36A8C3B02934EAC40099E05F /* TimeSheetGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetGenerator.swift; sourceTree = "<group>"; };
+		36C04C3328F635C100B8E66C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36D4588428F5D7E800B04CE3 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		36DA5EC028F6FE9D0080B010 /* CalendarHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		36DA5EC228F6FE9D0080B010 /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		36DA5ECB28F6FF8F0080B010 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		36F7DD2928F3876300103389 /* IntelligenSAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligenSAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F7DD2C28F3876300103389 /* IntelligenSAPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenSAPApp.swift; sourceTree = "<group>"; };
 		36F7DD2E28F3876300103389 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F7DD5928F3885E00103389 /* SwiftXLSX in Frameworks */,
+				36C4AC8D2906D28E00DE8F37 /* MSAL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +131,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3636826E29316F0E0032264F /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				36A8C3972931736C0099E05F /* DataController.swift */,
+				364A6437291D6AAB006582A0 /* IntelligenSAP.xcdatamodeld */,
+				36A8C387293171BC0099E05F /* TimeSheet+CoreDataClass.swift */,
+				36A8C388293171BC0099E05F /* TimeSheet+CoreDataProperties.swift */,
+				36A8C389293171BC0099E05F /* Day+CoreDataClass.swift */,
+				36A8C38A293171BC0099E05F /* Day+CoreDataProperties.swift */,
+				36A8C38B293171BC0099E05F /* Month+CoreDataClass.swift */,
+				36A8C38C293171BC0099E05F /* Month+CoreDataProperties.swift */,
+				36A8C38D293171BC0099E05F /* Activity+CoreDataClass.swift */,
+				36A8C38E293171BC0099E05F /* Activity+CoreDataProperties.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		3689BE0828F38B9F006738C6 /* Reporte de Actividades */ = {
+			isa = PBXGroup;
+			children = (
+				365ADBF3293637A200239D5A /* TimeSheetView.swift */,
+				36DA5ECB28F6FF8F0080B010 /* CalendarView.swift */,
+				36DA5EC228F6FE9D0080B010 /* CalendarCell.swift */,
+				36993799290B90FB00A252AB /* DayDetail.swift */,
+				36A8C3AE2934D6B70099E05F /* DayDetailActivity.swift */,
+				3625A04729017B2800CA1D85 /* ActivityDetail.swift */,
+				3689BE0928F38F07006738C6 /* GeneradorDeReporte.swift */,
+				369621D8291AE0D000121065 /* GeneradorDeReporte2.swift */,
+			);
+			path = "Reporte de Actividades";
+			sourceTree = "<group>";
+		};
+		3689BE0B28F396C9006738C6 /* Email Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3689BE1428F3999E006738C6 /* MailView.swift */,
+				3689BE1028F39873006738C6 /* Constants.swift */,
+				3689BE1128F39873006738C6 /* Email.txt */,
+			);
+			path = "Email Manager";
+			sourceTree = "<group>";
+		};
+		3699379D290BF5A200A252AB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				36DA5EC028F6FE9D0080B010 /* CalendarHelper.swift */,
+				36A8C3B02934EAC40099E05F /* TimeSheetGenerator.swift */,
+				36A8C3A82932EA3C0099E05F /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		36A8C39F2931BE7C0099E05F /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				36A8C3A02931BEDF0099E05F /* PerfilView.swift */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		36D4588328F5D7C800B04CE3 /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				36D4588428F5D7E800B04CE3 /* InicioView.swift */,
+				36C04C3328F635C100B8E66C /* HomeView.swift */,
+			);
+			path = Inicio;
+			sourceTree = "<group>";
+		};
 		36F7DD2028F3876300103389 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +223,15 @@
 		36F7DD2B28F3876300103389 /* IntelligenSAP */ = {
 			isa = PBXGroup;
 			children = (
+				3636826E29316F0E0032264F /* Data Model */,
+				368E54302906D43300E77C0A /* Info.plist */,
 				36F7DD2C28F3876300103389 /* IntelligenSAPApp.swift */,
 				36F7DD2E28F3876300103389 /* ContentView.swift */,
+				36D4588328F5D7C800B04CE3 /* Inicio */,
+				3689BE0828F38B9F006738C6 /* Reporte de Actividades */,
+				3689BE0B28F396C9006738C6 /* Email Manager */,
+				3699379D290BF5A200A252AB /* Utilities */,
+				36A8C39F2931BE7C0099E05F /* Perfil */,
 				36F7DD3028F3876300103389 /* Assets.xcassets */,
 				36F7DD3228F3876300103389 /* IntelligenSAP.entitlements */,
 				36F7DD3328F3876300103389 /* Preview Content */,
@@ -145,6 +280,10 @@
 			dependencies = (
 			);
 			name = IntelligenSAP;
+			packageProductDependencies = (
+				36F7DD5828F3885E00103389 /* SwiftXLSX */,
+				36C4AC8C2906D28E00DE8F37 /* MSAL */,
+			);
 			productName = IntelligenSAP;
 			productReference = 36F7DD2928F3876300103389 /* IntelligenSAP.app */;
 			productType = "com.apple.product-type.application";
@@ -193,7 +332,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					36F7DD2828F3876300103389 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -217,6 +356,10 @@
 				Base,
 			);
 			mainGroup = 36F7DD2028F3876300103389;
+			packageReferences = (
+				36F7DD5728F3885E00103389 /* XCRemoteSwiftPackageReference "SwiftXLSX" */,
+				36C4AC8B2906D28E00DE8F37 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */,
+			);
 			productRefGroup = 36F7DD2A28F3876300103389 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3689BE1328F39873006738C6 /* Email.txt in Resources */,
 				36F7DD3528F3876300103389 /* Preview Assets.xcassets in Resources */,
 				36F7DD3128F3876300103389 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +403,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DA5EC928F6FE9D0080B010 /* CalendarCell.swift in Sources */,
+				36A8C3A12931BEDF0099E05F /* PerfilView.swift in Sources */,
+				3625A04829017B2800CA1D85 /* ActivityDetail.swift in Sources */,
+				36D4588528F5D7E800B04CE3 /* InicioView.swift in Sources */,
+				364A6439291D6AAB006582A0 /* IntelligenSAP.xcdatamodeld in Sources */,
+				36A8C392293171BC0099E05F /* Day+CoreDataProperties.swift in Sources */,
+				36A8C391293171BC0099E05F /* Day+CoreDataClass.swift in Sources */,
+				36A8C390293171BC0099E05F /* TimeSheet+CoreDataProperties.swift in Sources */,
+				36DA5EC728F6FE9D0080B010 /* CalendarHelper.swift in Sources */,
+				3689BE1228F39873006738C6 /* Constants.swift in Sources */,
+				36DA5ECC28F6FF8F0080B010 /* CalendarView.swift in Sources */,
+				3689BE1628F3999E006738C6 /* MailView.swift in Sources */,
+				3689BE0A28F38F07006738C6 /* GeneradorDeReporte.swift in Sources */,
 				36F7DD2F28F3876300103389 /* ContentView.swift in Sources */,
+				36A8C395293171BC0099E05F /* Activity+CoreDataClass.swift in Sources */,
+				36A8C394293171BC0099E05F /* Month+CoreDataProperties.swift in Sources */,
+				365ADBF4293637A200239D5A /* TimeSheetView.swift in Sources */,
+				36C04C3428F635C100B8E66C /* HomeView.swift in Sources */,
+				369621D9291AE0D000121065 /* GeneradorDeReporte2.swift in Sources */,
+				36A8C3B12934EAC40099E05F /* TimeSheetGenerator.swift in Sources */,
+				36A8C3982931736C0099E05F /* DataController.swift in Sources */,
+				36A8C38F293171BC0099E05F /* TimeSheet+CoreDataClass.swift in Sources */,
 				36F7DD2D28F3876300103389 /* IntelligenSAPApp.swift in Sources */,
+				36A8C3A92932EA3C0099E05F /* Extensions.swift in Sources */,
+				36A8C3AF2934D6B70099E05F /* DayDetailActivity.swift in Sources */,
+				36A8C393293171BC0099E05F /* Month+CoreDataClass.swift in Sources */,
+				3699379A290B90FB00A252AB /* DayDetail.swift in Sources */,
+				36A8C396293171BC0099E05F /* Activity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +500,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -388,6 +559,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -412,13 +584,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IntelligenSAP/IntelligenSAP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"IntelligenSAP/Preview Content\"";
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelligenSAP/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -450,13 +626,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = IntelligenSAP/IntelligenSAP.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"IntelligenSAP/Preview Content\"";
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelligenSAP/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -489,6 +669,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -512,6 +693,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -534,6 +716,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -556,6 +739,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G99U6X9N9H;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -612,6 +796,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36C4AC8B2906D28E00DE8F37 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AzureAD/microsoft-authentication-library-for-objc";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		36F7DD5728F3885E00103389 /* XCRemoteSwiftPackageReference "SwiftXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/3973770/SwiftXLSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36C4AC8C2906D28E00DE8F37 /* MSAL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36C4AC8B2906D28E00DE8F37 /* XCRemoteSwiftPackageReference "microsoft-authentication-library-for-objc" */;
+			productName = MSAL;
+		};
+		36F7DD5828F3885E00103389 /* SwiftXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36F7DD5728F3885E00103389 /* XCRemoteSwiftPackageReference "SwiftXLSX" */;
+			productName = SwiftXLSX;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		364A6437291D6AAB006582A0 /* IntelligenSAP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				364A6438291D6AAB006582A0 /* IntelligenSAP.xcdatamodel */,
+			);
+			currentVersion = 364A6438291D6AAB006582A0 /* IntelligenSAP.xcdatamodel */;
+			path = IntelligenSAP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 36F7DD2128F3876300103389 /* Project object */;
 }

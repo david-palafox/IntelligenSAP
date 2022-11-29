@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="hours" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <relationship name="inDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="activities" inverseEntity="Day"/>
+    </entity>
+    <entity name="Day" representedClassName="Day" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isWorkDay" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="monthType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="inDay" inverseEntity="Activity"/>
+        <relationship name="inMonth" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Month" inverseName="days" inverseEntity="Month"/>
+    </entity>
+    <entity name="Month" representedClassName="Month" syncable="YES">
+        <attribute name="month" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="days" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Day" inverseName="inMonth" inverseEntity="Day"/>
+        <relationship name="inTimeSheet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TimeSheet" inverseName="month" inverseEntity="TimeSheet"/>
+    </entity>
+    <entity name="TimeSheet" representedClassName="TimeSheet" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <relationship name="month" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Month" inverseName="inTimeSheet" inverseEntity="Month"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+</model>
